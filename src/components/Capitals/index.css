@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.capitals-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: lightblue;
+  min-height: 100vh;
+}
+
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.dropdown {
+  padding: 10px;
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin-bottom: 20px;
+}
+
+.country-display {
+  font-size: 18px;
+  color: #323f4b;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+}
+
+.country {
+  font-size: 20px;
+  color: #1d4f88;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
